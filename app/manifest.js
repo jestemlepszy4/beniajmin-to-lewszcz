@@ -4,7 +4,7 @@
     "theme_color": "#101317",
     "background_color": "#101317",
     "display": "standalone",
-    "start_url": "/beniajmin-to-lewszcz/",
+    "start_url": "./",
     "icons": [
         {
             "src": "app/images/ikonka.png",

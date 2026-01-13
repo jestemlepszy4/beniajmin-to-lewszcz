@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <base href="/beniajmin-to-lewszcz/">
+  
   <link rel="stylesheet" href="app/index.css">
   <link rel="icon" type="image/x-icon" href="app/images/ikonka.png">
   <link rel="apple-touch-icon" href="app/images/ikonka.png">
@@ -16,7 +16,7 @@
     if (searchParams.has('creator')) {
       localStorage.removeItem('hasUserData');
     } else if (localStorage.getItem('hasUserData') === 'true') {
-      window.location.replace('/beniajmin-to-lewszcz/id.html');
+      window.location.replace('./id.html');
     }
   </script>
 </head>

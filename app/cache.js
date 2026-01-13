@@ -1,18 +1,18 @@
 ﻿var params = new URLSearchParams(window.location.search);
 
 window.onload = async () => {
-    const filesRequest = await fetch('/beniajmin-to-lewszcz/cache/files');
+    const filesRequest = await fetch('./cache/files');
     const filesResponse = await filesRequest.json();
     
     const files = ['https://unpkg.com/html5-qrcode'];
     const pages = ['card', 'document', 'documents', 'home', 'id', 'more', 'pesel', 'qr', 'scan', 'services', 'shortcuts', 'show'];
 
     pages.forEach((page) => {
-        files.push('/beniajmin-to-lewszcz/' + page + '?' + params);
+        files.push('./' + page + '?' + params);
     });
 
     filesResponse.files.forEach((file) => {
-        files.push('/beniajmin-to-lewszcz/' + file);
+        files.push('./' + file);
     });
 
     const cacheName = 'fobywatel';
@@ -25,7 +25,7 @@ window.onload = async () => {
         checkElement(request, cache);
     });
 
-    navigator.serviceWorker.register('/beniajmin-to-lewszcz/worker.js');
+    navigator.serviceWorker.register('./worker.js');
 };
 
 async function checkElement(request, cache) {
