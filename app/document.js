@@ -1,4 +1,4 @@
-const docSelectors = {
+﻿const docSelectors = {
     series: document.getElementById('docSeries'),
     status: document.getElementById('docStatus'),
     issuer: document.getElementById('docIssuer'),

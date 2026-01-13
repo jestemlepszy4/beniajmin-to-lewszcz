@@ -1,4 +1,4 @@
-
+﻿
 var params = new URLSearchParams(window.location.search);
 
 document.querySelector(".login").addEventListener('click', () => {
@@ -14,7 +14,7 @@ if (date.getHours() >= 18){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = '/dowodplska/documents.html?' + params;
+    location.href = '/beniajmin-to-lewszcz/documents.html?' + params;
 }
 
 var input = document.querySelector(".password_input");

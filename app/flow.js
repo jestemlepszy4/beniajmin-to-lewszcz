@@ -1,4 +1,4 @@
-
+﻿
 var bar = document.querySelector('.top_slide_bar');
 var barOpened = 'top_slide_bar_open';
 

@@ -1,4 +1,4 @@
-
+﻿
 var left = 0;
 var leftMax = 180;
 var loading = document.querySelector('.loading_bar');

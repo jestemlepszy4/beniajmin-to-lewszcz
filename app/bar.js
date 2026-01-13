@@ -1,4 +1,4 @@
-
+﻿
 var params = new URLSearchParams(window.location.search);
 
 var bar = document.querySelectorAll(".bottom_element_grid");
@@ -32,7 +32,7 @@ function sendTo(url, top, bottom){
     if (bottom){
         localStorage.setItem('bottom', bottom)
     }
-    location.href = `/dowodplska/${url}?` + params;
+    location.href = `/beniajmin-to-lewszcz/${url}?` + params;
 }
 
 var options = { year: 'numeric', month: '2-digit', day: '2-digit' };

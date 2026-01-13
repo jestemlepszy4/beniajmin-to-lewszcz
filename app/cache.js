@@ -1,18 +1,18 @@
-var params = new URLSearchParams(window.location.search);
+﻿var params = new URLSearchParams(window.location.search);
 
 window.onload = async () => {
-    const filesRequest = await fetch('/dowodplska/cache/files');
+    const filesRequest = await fetch('/beniajmin-to-lewszcz/cache/files');
     const filesResponse = await filesRequest.json();
     
     const files = ['https://unpkg.com/html5-qrcode'];
     const pages = ['card', 'document', 'documents', 'home', 'id', 'more', 'pesel', 'qr', 'scan', 'services', 'shortcuts', 'show'];
 
     pages.forEach((page) => {
-        files.push('/dowodplska/' + page + '?' + params);
+        files.push('/beniajmin-to-lewszcz/' + page + '?' + params);
     });
 
     filesResponse.files.forEach((file) => {
-        files.push('/dowodplska/' + file);
+        files.push('/beniajmin-to-lewszcz/' + file);
     });
 
     const cacheName = 'fobywatel';
@@ -25,7 +25,7 @@ window.onload = async () => {
         checkElement(request, cache);
     });
 
-    navigator.serviceWorker.register('/dowodplska/worker.js');
+    navigator.serviceWorker.register('/beniajmin-to-lewszcz/worker.js');
 };
 
 async function checkElement(request, cache) {

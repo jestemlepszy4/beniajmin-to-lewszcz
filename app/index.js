@@ -1,4 +1,4 @@
-function scaleAndConvertToGrayscale(imageElement, maxWidth, maxHeight) {
+﻿function scaleAndConvertToGrayscale(imageElement, maxWidth, maxHeight) {
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
     
@@ -211,7 +211,7 @@ document.querySelector(".go").addEventListener('click', () => {
 
 function forwardToLogin(params) {
     localStorage.setItem('hasUserData', 'true');
-    location.href = "/dowodplska/id.html?" + params.toString();
+    location.href = "/beniajmin-to-lewszcz/id.html?" + params.toString();
 }
 
 var guide = document.querySelector(".guide_holder");

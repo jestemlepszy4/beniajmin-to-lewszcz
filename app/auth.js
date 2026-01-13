@@ -1,4 +1,4 @@
-window.goToCreator = function() {
+﻿window.goToCreator = function() {
     localStorage.removeItem('hasUserData');
     localStorage.removeItem('top');
     localStorage.removeItem('bottom');
@@ -6,7 +6,7 @@ window.goToCreator = function() {
     localStorage.removeItem('birthDay');
     localStorage.removeItem('givenDate');
     localStorage.removeItem('expiryDate');
-    window.location.href = '/dowodplska/index.html?creator=1';
+    window.location.href = '/beniajmin-to-lewszcz/index.html?creator=1';
 };
 
 
