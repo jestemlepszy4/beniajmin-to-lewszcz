@@ -1,16 +1,16 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --home: url('../app/images/home.png');
-    --home-open: url('../app/images/home_open.png');
-    --documents: url('../app/images/documents.png');
-    --documents-open: url('../app/images/documents_open.png');
-    --services: url('../app/images/services.png');
-    --services-open: url('../app/images/services_open.png');
-    --qr: url('../app/images/identity.png');
-    --qr-open: url('../app/images/identity_open.png');
-    --more: url('../app/images/other.png');
-    --more-open: url('../app/images/other_open.png');
+    --home: url('images/home.png');
+    --home-open: url('images/home_open.png');
+    --documents: url('images/documents.png');
+    --documents-open: url('images/documents_open.png');
+    --services: url('images/services.png');
+    --services-open: url('images/services_open.png');
+    --qr: url('images/identity.png');
+    --qr-open: url('images/identity_open.png');
+    --more: url('images/other.png');
+    --more-open: url('images/other_open.png');
     --text: #4ba4fe;
     --secondary: #1f2227;
     --gray: #67707b;
